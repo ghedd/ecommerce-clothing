@@ -9,6 +9,7 @@
 	border: 1px solid black;
 	margin: 0 7.5px 15px;
 	overflow: hidden;
+	cursor: pointer;
 
 	&.large {
 		height: 380px;
@@ -54,7 +55,6 @@
 		border: 1px solid black;
 		background-color: rgba(255, 255, 255, 0.7);
 		transition: background-color 0.2s ease-in-out;
-		cursor: pointer;
 
 		.title {
 			font-weight: bold;
