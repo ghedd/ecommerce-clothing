@@ -1,8 +1,8 @@
+@import "../../utils/styles/mixins";
+
 .collection-preview {
 	&.container {
-		margin: 0 auto;
-		width: calc(100% - 2.5em);
-		max-width: 1600px;
+		@include container;
 	}
 	display: flex;
 	flex-direction: column;

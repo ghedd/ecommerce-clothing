@@ -14,7 +14,7 @@ class ShopPage extends Component {
 		const { collections } = this.state;
 		return (
 			<div className="shop-page">
-				<h1>{"shop page".toUpperCase()}</h1>
+				{/* <h1>{"shop page".toUpperCase()}</h1> */}
 				{collections.map(({ id, ...otherCollectionProps }) => (
 					<CollectionPreview key={id} {...otherCollectionProps} />
 				))}
